@@ -6,6 +6,9 @@ import StatefulGreetingWithCallback from './components/StatefulGreetingWithCallb
 import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
 import EventsFunctional from './components/EventsFunctional';
 import EventsClass from './components/EventsClass';
+import EventBinding from "./components/EventBinding";
+import ConditionalRenderingClass from './components/ConditionalRenderingClass';
+import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
 
 function App() {
   return (
@@ -15,8 +18,11 @@ function App() {
       {/* <HooksCounter name="Mike" /> */}
       {/* <StatefulGreetingWithCallback /> */}
       {/* <StatefulGreetingWithPrevState /> */}
-      <EventsFunctional />
-      <EventsClass />
+      {/* <EventsFunctional /> */}
+      {/* <EventsClass /> */}
+      <ConditionalRenderingClass />
+      <ConditionalRenderingFunctional />
+      
     </div>
   );
 }
