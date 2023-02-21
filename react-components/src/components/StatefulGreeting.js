@@ -26,3 +26,13 @@ export default class StatefulGreeting extends React.Component {
     );
   }
 }
+
+/*
+Updating the State
+• Add the onClick
+1. attribute to the button
+Write an event handler
+2. I to listen for the click
+event
+Use setState() in the
+3. I event handler to update the state */

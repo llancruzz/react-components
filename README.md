@@ -29,3 +29,7 @@
 - You pass props to class components and access them with this.props
 
 [Additional Perspectives](https://articles.wesionary.team/react-functional-components-vs-class-components-86a2d2821a22)
+
+[React Docs: How to Handle Events](https://reactjs.org/docs/handling-events.html)
+
+[Reac Docs: List of Events](https://reactjs.org/docs/events.html)
