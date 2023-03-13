@@ -9,6 +9,7 @@ import EventsClass from './components/EventsClass';
 import EventBinding from "./components/EventBinding";
 import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
+import NestingComponents from './components/NestingComponents'
 
 function App() {
   return (
@@ -17,11 +18,13 @@ function App() {
       {/* <StatefulGreeting name="Anna" /> */}
       {/* <HooksCounter name="Mike" /> */}
       {/* <StatefulGreetingWithCallback /> */}
-      {<StatefulGreetingWithPrevState /> }
+      {/* <StatefulGreetingWithPrevState /> */}
       {/* <EventsFunctional /> */}
       {/* <EventsClass /> */}
-      {/*<ConditionalRenderingClass />*/}
-      {/*<ConditionalRenderingFunctional />*/}
+      {/* <EventBinding /> */}
+      {/* <ConditionalRenderingClass /> */}
+      {/* <ConditionalRenderingFunctional /> */}
+      { <NestingComponents />}
       
     </div>
   );
