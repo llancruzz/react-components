@@ -17,11 +17,11 @@ function App() {
       {/* <StatefulGreeting name="Anna" /> */}
       {/* <HooksCounter name="Mike" /> */}
       {/* <StatefulGreetingWithCallback /> */}
-      {/* <StatefulGreetingWithPrevState /> */}
+      {<StatefulGreetingWithPrevState /> }
       {/* <EventsFunctional /> */}
       {/* <EventsClass /> */}
-      <ConditionalRenderingClass />
-      <ConditionalRenderingFunctional />
+      {/*<ConditionalRenderingClass />*/}
+      {/*<ConditionalRenderingFunctional />*/}
       
     </div>
   );
