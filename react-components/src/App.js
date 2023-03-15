@@ -21,6 +21,9 @@ import LifeCyclesCWU from "./components/LifeCyclesCWU";
 import ControlledForm from "./components/ControlledForm";
 import UncontrolledForm from "./components/UncontrolledForm";
 import ControlledFormHooks from "./components/ControlledFormHooks";
+import UseStateWithArrays from "./components/UseStateWithArrays";
+import UseStateWithObjects from "./components/UseStateWithObjects";
+import UseEffectCounter from "./components/UseEffectCounter";
 
 function App() {
   return (
@@ -45,6 +48,9 @@ function App() {
       {/* <ControlledForm/> */}
       {/* <UncontrolledForm/> */}
       {/* <ControlledFormHooks/> */}
+      {/* <UseStateWithArrays/> */}
+      {/* <UseStateWithObjects/> */}
+      {/* <UseEffectCounter/> */}
       
     </div>
   );

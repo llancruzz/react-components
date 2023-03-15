@@ -7,7 +7,30 @@ export default class ClassCounter extends Component {
       count: 0,
     };
   }
+  componentDidMount() {
+    document.title = this.state.count;
+  }
+  componentDidUpdate() {
+    document.title = this.state.count;
+  }
+  render() {
+    return (
+      <div>
+        <button
+          onClick={() =>
+            this.setState((prevState) => ({
+              count: prevState.count + 1,
+            }))
+          }
+        >
+          Increment Count ({this.state.count})
+        </button>
+      </div>
+    );
+  }
+}
 
+/*
   handleClick = () => {
     this.setState((prevState) => {
       return { count: prevState.count + 1 };
@@ -24,3 +47,4 @@ export default class ClassCounter extends Component {
     );
   }
 }
+*/
