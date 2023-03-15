@@ -18,13 +18,16 @@ import RenderingLists from "./components/RenderingLists";
 import LifeCyclesCDM from "./components/LifeCyclesCDM";
 import LifeCyclesCDU from "./components/LifeCyclesCDU";
 import LifeCyclesCWU from "./components/LifeCyclesCWU";
+import ControlledForm from "./components/ControlledForm";
+import UncontrolledForm from "./components/UncontrolledForm";
+import ControlledFormHooks from "./components/ControlledFormHooks";
 
 function App() {
   return (
     <div className="App">
       {/* <FunctionalGreeting name="Alan" /> */}
       {/* <StatefulGreeting name="Anna" /> */}
-      {/* <HooksCounter name="Mike" /> */}
+      {/* <HooksCounter name="Alan" />*/}
       {/* <StatefulGreetingWithCallback /> */}
       {/* <StatefulGreetingWithPrevState /> */}
       {/* <EventsFunctional /> */}
@@ -39,6 +42,10 @@ function App() {
       {/* <LifeCyclesCDM/> */}
       {/* <LifeCyclesCDU/> */}
       {/* <LifeCyclesCWU/> */}
+      {/* <ControlledForm/> */}
+      {/* <UncontrolledForm/> */}
+      {/* <ControlledFormHooks/> */}
+      
     </div>
   );
 }
