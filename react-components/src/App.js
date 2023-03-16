@@ -58,7 +58,7 @@ function App() {
       {/* <UseEffectCounterContainer/> */}
       {/* <HTTPRequests/> */}
       {/* <HTTPPost/> */}
-      {<HTTPHooks />}
+      {/* <HTTPHooks /> */}
     </div>
   );
 }
