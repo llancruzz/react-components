@@ -1,4 +1,5 @@
 # React Components
+![Screenshot logo](./docs/react.png)
 
 ## React Functional Components VS Class Components
 
